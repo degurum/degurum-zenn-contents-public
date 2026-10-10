@@ -1,2 +1,6 @@
 node_modules
 .DS_Store
+
+# Python checks keep generated caches out of commits.
+__pycache__/
+*.py[cod]

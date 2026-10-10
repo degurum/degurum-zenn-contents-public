@@ -24,6 +24,12 @@ pnpm exec zenn new:book --slug public-example-book
 
 公開前でも GitHub に置いてよい内容なら `published: false` で Zenn 上の下書きとして管理できます。ただし GitHub 上の原稿は公開されたままです。機密情報、他者の非公開情報、認証情報は含めません。
 
+## 記事を推敲する
+
+記事の新規作成と大きな改稿では、下書き後に [yomiyasu の推敲手順](docs/yomiyasu.md) を実行します。固定した v1.1.1 のスキル・参照資料・検査スクリプトをリポジトリに同梱しているため、Codex Cloud でも同じブランチを取得して使えます。Python 3.10 以上があれば検査でき、追加パッケージや新しい認証は不要です。
+
+lint と diff の候補は原文と照合して判断し、スコアを正しさの保証や必須 100 点にはしません。コード、YAML、数値、条件、責任主体、断定の強さを保ち、公開前の Zenn プレビューと公開範囲の確認も行います。導入の検証は `python3 -B scripts/verify_yomiyasu.py` で実行できます（Windows では `python` でも実行可能）。
+
 ## 更新・公開する
 
 1. 原稿と画像を編集し、`pnpm exec zenn preview` で表示を確認します。

@@ -1,0 +1,5 @@
+# Preserve upstream bytes for reproducible Git blob checks on Windows and Linux.
+/.agents/skills/yomiyasu/** -text
+/.agents/yomiyasu-upstream.json text eol=lf
+/scripts/verify_yomiyasu.py text eol=lf
+/tests/yomiyasu/*.md text eol=lf
