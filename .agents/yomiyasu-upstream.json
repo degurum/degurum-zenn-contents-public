@@ -1,0 +1,96 @@
+{
+  "repository": "https://github.com/nanaism/yomiyasu",
+  "tag": "v1.1.1",
+  "commit": "373356eb874af5184962c88e925ea7eb58450318",
+  "commit_date": "2026-10-09",
+  "upstream_package": "skills/yomiyasu",
+  "installation": "Codex skill-installer install-skill-from-github.py --repo nanaism/yomiyasu --path skills/yomiyasu --ref 373356eb874af5184962c88e925ea7eb58450318 --dest .agents/skills --method download",
+  "notes": "The 14-file skill package is unmodified. Three upstream regression tests are added under the skill's tests/ directory so their sibling scripts/ imports still resolve. No runtime download or authentication is required.",
+  "files": [
+    {
+      "path": ".agents/skills/yomiyasu/.claude-plugin/marketplace.json",
+      "upstream_path": "skills/yomiyasu/.claude-plugin/marketplace.json",
+      "git_blob_sha1": "958009ab1a12efc4dd2bb02a27a7c69a790530f6"
+    },
+    {
+      "path": ".agents/skills/yomiyasu/.claude-plugin/plugin.json",
+      "upstream_path": "skills/yomiyasu/.claude-plugin/plugin.json",
+      "git_blob_sha1": "fb18fe868ff726484528cbab49e1de7303a36143"
+    },
+    {
+      "path": ".agents/skills/yomiyasu/LICENSE",
+      "upstream_path": "skills/yomiyasu/LICENSE",
+      "git_blob_sha1": "f0d06f87f9b209d47c7f7963321ff71bab68c1e8"
+    },
+    {
+      "path": ".agents/skills/yomiyasu/SKILL.md",
+      "upstream_path": "skills/yomiyasu/SKILL.md",
+      "git_blob_sha1": "ad38af2140d4e102cad69737f2ca035cc1e87677"
+    },
+    {
+      "path": ".agents/skills/yomiyasu/UNICODE-LICENSE.txt",
+      "upstream_path": "skills/yomiyasu/UNICODE-LICENSE.txt",
+      "git_blob_sha1": "56da58912807030b451a4700687d5bd02c72d6ed"
+    },
+    {
+      "path": ".agents/skills/yomiyasu/assets/algo-artis.png",
+      "upstream_path": "skills/yomiyasu/assets/algo-artis.png",
+      "git_blob_sha1": "21f28805968be9191621b00d64efe6b5f70c1ec6"
+    },
+    {
+      "path": ".agents/skills/yomiyasu/references/domains/business.md",
+      "upstream_path": "skills/yomiyasu/references/domains/business.md",
+      "git_blob_sha1": "33457ae1602c989aa743856092a534dea8218cc2"
+    },
+    {
+      "path": ".agents/skills/yomiyasu/references/domains/essay.md",
+      "upstream_path": "skills/yomiyasu/references/domains/essay.md",
+      "git_blob_sha1": "e7e2bc36045542545ef25398526fa9f7b469ab64"
+    },
+    {
+      "path": ".agents/skills/yomiyasu/references/domains/tech.md",
+      "upstream_path": "skills/yomiyasu/references/domains/tech.md",
+      "git_blob_sha1": "49f36b1a5916e56f8e2b973bee21656207ccf916"
+    },
+    {
+      "path": ".agents/skills/yomiyasu/references/gemini-syntax.md",
+      "upstream_path": "skills/yomiyasu/references/gemini-syntax.md",
+      "git_blob_sha1": "f0380a8f6303c5d69d96da54f9e55559b41baf2e"
+    },
+    {
+      "path": ".agents/skills/yomiyasu/references/slop-catalog.md",
+      "upstream_path": "skills/yomiyasu/references/slop-catalog.md",
+      "git_blob_sha1": "0132b7918363f6c6357910bfa20f1183d707c195"
+    },
+    {
+      "path": ".agents/skills/yomiyasu/scripts/markdown_visibility.py",
+      "upstream_path": "skills/yomiyasu/scripts/markdown_visibility.py",
+      "git_blob_sha1": "6f7319376a6499e305b26ad0f4b466b66ed4b05d"
+    },
+    {
+      "path": ".agents/skills/yomiyasu/scripts/yomiyasu_diff.py",
+      "upstream_path": "skills/yomiyasu/scripts/yomiyasu_diff.py",
+      "git_blob_sha1": "616932a8b3279a0ea9c4024667be633a72fd1c77"
+    },
+    {
+      "path": ".agents/skills/yomiyasu/scripts/yomiyasu_lint.py",
+      "upstream_path": "skills/yomiyasu/scripts/yomiyasu_lint.py",
+      "git_blob_sha1": "65fae51060f8f4c4f2c80183a7b1a342d8fdf9ef"
+    },
+    {
+      "path": ".agents/skills/yomiyasu/tests/test_trusted_markdown.py",
+      "upstream_path": "tests/test_trusted_markdown.py",
+      "git_blob_sha1": "92b608b4aec0ca6bdf7fe450ed28ab4fedb741f2"
+    },
+    {
+      "path": ".agents/skills/yomiyasu/tests/test_stdio_encoding.py",
+      "upstream_path": "tests/test_stdio_encoding.py",
+      "git_blob_sha1": "a8f49e0ad869567810a8a5fa6d94debdfdad3092"
+    },
+    {
+      "path": ".agents/skills/yomiyasu/tests/test_v111_dash_regressions.py",
+      "upstream_path": "tests/test_v111_dash_regressions.py",
+      "git_blob_sha1": "48cfa6c1ada8b0d3717f86c412623919841d72d1"
+    }
+  ]
+}
